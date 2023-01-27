@@ -6,7 +6,8 @@ export const commentApi = createApi({
   reducerPath: "commentApi",
   tagTypes: ["Comment"],
   baseQuery: authAxiosBaseQuery({
-    baseUrl: "http://kdt-sw3-team08.elicecoding.com:3003/api/",
+    baseUrl:
+      "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app:3003/api/",
   }),
   endpoints: (builder) => ({
     // id에 해당하는 댓글을 업데이트
