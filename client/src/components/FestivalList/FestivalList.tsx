@@ -28,7 +28,7 @@ const FestivalList: React.FC<LocationProps> = ({ location }) => {
   const getInfo = async (infoType: string, location: string) => {
     const infoList = await axios
       .get(
-        `https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app:3003/api/main/infoes/${infoType}`,
+        `https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app/api/main/infoes/${infoType}`,
       )
       .then((res) =>
         res.data.sort((a: Item, b: Item) => {

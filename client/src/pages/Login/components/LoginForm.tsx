@@ -11,7 +11,7 @@ import axios from "axios";
 
 const LoginForm = () => {
   const baseUrl =
-    "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app:3003";
+    "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app";
   // const loginUrl = `${baseUrl}/main/auth/login`;
   const navigate = useNavigate();
 

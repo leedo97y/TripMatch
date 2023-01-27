@@ -7,7 +7,7 @@ export const noticeApi = createApi({
   tagTypes: ["Notice"],
   baseQuery: authAxiosBaseQuery({
     baseUrl:
-      "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app:3003/api/",
+      "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app/api/",
   }),
   endpoints: (builder) => ({
     // 전체 동행게시글을 불러옴

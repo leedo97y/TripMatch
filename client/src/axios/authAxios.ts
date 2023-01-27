@@ -3,8 +3,7 @@ import axios from "axios";
 // accesstoken 이 필요한 api 요청에는 해당 authAxios 를 사용해주시고, 필요하지 않은 api 요청에는 기본 axios 를 사용해주세요
 
 // tempUrl 은 추후 삭제 예정
-const baseUrl =
-  "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app:3003";
+const baseUrl = "https://port-0-tripmatch-1b5xkk2fldeum3x7.gksl2.cloudtype.app";
 const refreshTokenURl = `${baseUrl}/api/main/auth/refresh`;
 
 const refreshAccessToken = async () => {
