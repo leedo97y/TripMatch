@@ -1,8 +1,7 @@
 # Trip Match
 
 - 믿을 수 있는 여행 동행자를 구하는 사이트
-- [링크](https://web-trip-match-1b5xkk2fldeum3x7.gksl2.cloudtype.app/) <br>
-  ![QR](https://res.cloudinary.com/dnow6qfd8/image/upload/v1672332941/qr_lpuiw1.png)
+- [사이트 링크](https://web-trip-match-1b5xkk2fldeum3x7.gksl2.cloudtype.app/) <br>
 
 ## 서비스 구성 안내
 
